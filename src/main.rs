@@ -1,5 +1,6 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 #[macro_use] extern crate rocket;
+extern crate subprocess;
 
 mod test;
 mod status;
